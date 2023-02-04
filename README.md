@@ -11,8 +11,8 @@ It is a simple todo list project  which is made using RESTFul API in Flask with 
 ## Steps in Installation Process
 
 + Create virtual environment
-    
-    virtualenv -p python3 .venv
+                
+                virtualenv -p python3 .venv
 
 + Activate Virtual environment
     

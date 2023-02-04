@@ -11,11 +11,11 @@ It is a simple todo list project  which is made using RESTFul API in Flask with 
 ## Steps in Installation Process
 
 + Create virtual environment
-
+    
     virtualenv -p python3 .venv
 
 + Activate Virtual environment
-
+    
     venv/Scripts/activate
   
 + Create file called requirements.txt which consists following packages

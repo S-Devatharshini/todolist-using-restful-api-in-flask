@@ -11,23 +11,23 @@ It is a simple todo list project  which is made using RESTFul API in Flask with 
 ## Steps in Installation Process
 
 + Create virtual environment
-                
-                virtualenv -p python3 .venv
+        
+        virtualenv -p python3 .venv
 
 + Activate Virtual environment
-    
-    venv/Scripts/activate
+
+        venv/Scripts/activate
   
 + Create file called requirements.txt which consists following packages
-  
-    Flask
-    Flask-RESTful
-    PyJWT==1.7.1
-    Flask-SQLAlchemy
+        
+        Flask
+        Flask-RESTful
+        PyJWT==1.7.1
+        Flask-SQLAlchemy
 
 + Install the packages
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
  
 
 ## Execute the application 
@@ -43,11 +43,11 @@ The application can be executed by runing the server using:
 
 + Go to Python Shell
 
-    python
-    from api import app, db
-    app.app_context().push()
-    db.create_all()
-    exit()
+       python
+       from api import app, db
+       app.app_context().push()
+       db.create_all()
+       exit()
   
 ##### note: Here todo.db is the database file name.
 

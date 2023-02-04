@@ -1,0 +1,4 @@
+flask
+Flask-RESTful
+PyJWT==1.7.1
+Flask-SQLAlchemy
